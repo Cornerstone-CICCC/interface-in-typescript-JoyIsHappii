@@ -5,6 +5,5 @@
 
 
 const UserInput = document.getElementById('user-input') as HTMLInputElement;
-
 UserInput.value = 'Hello';
 
