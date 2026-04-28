@@ -72,7 +72,6 @@ Happy codding! 🎉
 ### Interfaces TypeScript
 
 1. **Exercise: Creating an Interface for a Triangle**
-
    - Create an interface named `Triangle` with properties: `sideA`, `sideB`, `sideC`. All the properties should be the type `number`.
    - Add three methods to the interface: `calculatePerimeter`, `calculateArea`, and `isTriangle`.
    - Define a variable using the interface `Triangle` and assign it an object.
@@ -82,7 +81,7 @@ Happy codding! 🎉
      const myTriangle = {
        sideA: 3,
        sideB: 4,
-       sideC: 5
+       sideC: 5,
        // ...
      };
 
@@ -94,29 +93,24 @@ Happy codding! 🎉
 ### Multiple Interfaces
 
 2. **Exercise: Implementing Multiple Interfaces**
-
    - Create two interfaces:
-
    1. `Animal` with a `breed`(string) and `name` (string) properties;
    2. `SoundMaker` with a `makeSound` method.
-
    - Create a class `Pet` that implements both `Animal` and `SoundMaker`.
    - Instantiate a pet object and call the `makeSound` method to display the pet's sound.
 
      ```ts
-     const myPet = new Pet("Labrador", "Buddy");
+     const myPet = new Pet('Labrador', 'Buddy');
      myPet.makeSound(); // Buddy says: Woof!
      ```
 
 3. **Exercise: Implementing Multiple Interfaces**
-
    - Let's make the `Triangle` interface reusable from the exercise above.
    - Create a new interface named `Shape` with the methods to calculate the perimeter and area: `calculatePerimeter`and `calculateArea`.
    - Implement the `Shape` interface in news interfaces (`extends`), like `Rectangle`, `Circle`, and `Square`.
    - Make the correct modifications in the methods to calculate the perimeter and area for each shape.
 
 4. **Exercise: Type against Interface**
-
    - Define an type alias `Participant` with properties `name` (string) and `role` (string).
    - Define an interface `Event` with properties `date` (Date), `title` (string), and `participants` (array of Participant objects).
    - Create an object called `event1` using the Event interface.
@@ -127,41 +121,36 @@ Happy codding! 🎉
 ### Advanced Types
 
 5. **Exercise: Creating Intersection Types**
-
    - Define types `Admin` and `Employee` with appropriate properties of your choice.
    - Create an intersection type `AdminEmployee` that combines properties from both `Admin` and `Employee`.
    - Instantiate an object using the `AdminEmployee` type and display the properties.
 
 6. **Exercise: Using Type Guards**
-
    - Define a union type `StringOrNumber` that includes string and number.
    - Write a function `printInfo` that prints information based on the type of the argument (string or number).
    - Call the function with both a string and a number.
 
 7. **Exercise: Implementing Discriminated Unions**
-
    - Create interfaces `Bird` and `Horse` with respective properties and a discriminated property `breed`.
    - Implement a function `moveAnimal` that print how animal moves based on animal (Bird or Horse) parameter received. `Eg:  bird fly, horse gallop.`
 
 8. **Exercise: Type Casting**
-
    - Create an input element with id `user-input` in HTML.
    - Use type casting to access and modify the value of the input element.
 
 9. **Exercise: Index Properties**
-
    - Create an interface `ErrorContainer` with an `index property` that holds error messages.
    - Define an object `errorBag` using the `ErrorContainer` interface and display the error messages.
 
 10. **Exercise: Optional Chaining**
 
-   - Create an interface `User`.
-   - `User` has `address` that may not be defined, and `address` has `street`, and `zipCode`.
-   - Create an object `user1` with nested property: `address`.
-   - Use optional chaining to access the `zipCode` property to print with `console.log`.
+- Create an interface `User`.
+- `User` has `address` that may not be defined, and `address` has `street`, and `zipCode`.
+- Create an object `user1` with nested property: `address`.
+- Use optional chaining to access the `zipCode` property to print with `console.log`.
 
 11. **Exercise: Nullish Coalescing**
 
-   - Create a variable `userInput` with a null value.
-   - Use nullish coalescing to set a default value `Please enter something...` if `userInput` is null or undefined.
-   - Display the resulting value.
+- Create a variable `userInput` with a null value.
+- Use nullish coalescing to set a default value `Please enter something...` if `userInput` is null or undefined.
+- Display the resulting value.

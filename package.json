@@ -4,12 +4,14 @@
   "description": "Welcome to interfaces in TypeScript! In this exercise, you will practice your new skills in TypeScript!",
   "main": "index.js",
   "scripts": {
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "format": "prettier --write ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "prettier": "3.8.3",
     "typescript": "^5.4.5"
   }
 }
