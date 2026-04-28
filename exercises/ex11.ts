@@ -4,6 +4,6 @@
 // Display the resulting value.
 
 const userInput: string | null = null;
-const result = userInput ?? "Please enter something...";
+const result = userInput ?? 'Please enter something...';
 
 console.log(result);

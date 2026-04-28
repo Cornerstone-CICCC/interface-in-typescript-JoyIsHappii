@@ -14,9 +14,9 @@ interface User {
 
 const user1: User = {
   address: {
-    street: "123 Main St",
-    zipCode: "12345"
-  }
+    street: '123 Main St',
+    zipCode: '12345',
+  },
 };
 
 console.log(user1.address?.zipCode);

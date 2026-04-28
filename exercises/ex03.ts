@@ -74,13 +74,13 @@ class Square implements Shape {
 }
 
 const myRectangle = new Rectangle(5, 10);
-console.log("Rectangle Perimeter:", myRectangle.calculatePerimeter()); // Rectangle Perimeter: 30
-console.log("Rectangle Area:", myRectangle.calculateArea()); // Rectangle Area: 50
+console.log('Rectangle Perimeter:', myRectangle.calculatePerimeter()); // Rectangle Perimeter: 30
+console.log('Rectangle Area:', myRectangle.calculateArea()); // Rectangle Area: 50
 
 const myCircle = new Circle(7);
-console.log("Circle Perimeter:", myCircle.calculatePerimeter()); // Circle Perimeter: 43.982297150257104
-console.log("Circle Area:", myCircle.calculateArea()); // Circle Area: 153.93804002589985
+console.log('Circle Perimeter:', myCircle.calculatePerimeter()); // Circle Perimeter: 43.982297150257104
+console.log('Circle Area:', myCircle.calculateArea()); // Circle Area: 153.93804002589985
 
 const mySquare = new Square(4);
-console.log("Square Perimeter:", mySquare.calculatePerimeter()); // Square Perimeter: 16
-console.log("Square Area:", mySquare.calculateArea()); // Square Area: 16
+console.log('Square Perimeter:', mySquare.calculatePerimeter()); // Square Perimeter: 16
+console.log('Square Area:', mySquare.calculateArea()); // Square Area: 16

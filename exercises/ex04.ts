@@ -8,9 +8,6 @@
 
 // Did something change? Discuss with your classmates.
 
-
-
-
 // type Participant = {
 //     name: string;
 //     role: string;
@@ -36,22 +33,22 @@
 //Inverted the exercise, using Event as a type alias and participants as an interface.
 
 interface Participant {
-    name: string;
-    role: string;
+  name: string;
+  role: string;
 }
 type myEvent = {
-    date: Date;
-    title: string;
-    participants: Participant[];
+  date: Date;
+  title: string;
+  participants: Participant[];
 };
 
 const event2: myEvent = {
-    date: new Date(),
-    title: "New Year's Eve Party",
-    participants: [
-        { name: "Charlie", role: "Host" },
-        { name: "Dave", role: "Guest" },
-    ],
+  date: new Date(),
+  title: "New Year's Eve Party",
+  participants: [
+    { name: 'Charlie', role: 'Host' },
+    { name: 'Dave', role: 'Guest' },
+  ],
 };
 
 console.log(event2);

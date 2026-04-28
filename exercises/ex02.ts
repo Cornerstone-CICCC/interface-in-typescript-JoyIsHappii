@@ -33,5 +33,5 @@ class Pet implements Animal, SoundMaker {
   }
 }
 
-const myPet = new Pet("Labrador", "Buddy");
+const myPet = new Pet('Labrador', 'Buddy');
 myPet.makeSound(); // Buddy says: Woof!

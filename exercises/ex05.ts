@@ -18,9 +18,9 @@ type AdminEmployee = Admin & Employee;
 
 const adminEmployee1: AdminEmployee = {
   adminId: 1,
-  adminName: "Alice",
+  adminName: 'Alice',
   employeeId: 101,
-  employeeName: "Bob",
+  employeeName: 'Bob',
 };
 
 console.log(adminEmployee1);

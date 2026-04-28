@@ -7,13 +7,13 @@
 type StringOrNumber = string | number;
 
 function printInfo(value: StringOrNumber): void {
-    if (typeof value === "string") {
-        console.log(`The string is: ${value}`);
-    } else {
-        console.log(`The number is: ${value}`);
-    } 
+  if (typeof value === 'string') {
+    console.log(`The string is: ${value}`);
+  } else {
+    console.log(`The number is: ${value}`);
+  }
 }
 
 // Test the function with both a string and a number
-printInfo("Hello");
+printInfo('Hello');
 printInfo(123);
